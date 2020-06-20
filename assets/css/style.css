@@ -287,6 +287,7 @@ a:hover, a:focus, a:active {
 .cause .cause-img {
   margin-bottom: 15px;
   width: 100%;
+  max-height: 180px;
 }
 .cause .cause-title {
   text-align: center;
