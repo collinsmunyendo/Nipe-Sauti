@@ -298,7 +298,7 @@ a:hover, a:focus, a:active {
   padding: 0 15px;
   font-size: 13px;
   margin-bottom: 15px;
-  min-height: 119px;
+  max-height: 141px;
 }
 .cause:hover {
   background: #f0f0f0;
