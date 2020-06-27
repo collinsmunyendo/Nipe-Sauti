@@ -285,9 +285,8 @@ a:hover, a:focus, a:active {
   box-shadow: none;
 }
 .cause .cause-img {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   width: 100%;
-  max-height: 180px;
 }
 .cause .cause-title {
   text-align: center;
@@ -299,7 +298,7 @@ a:hover, a:focus, a:active {
   padding: 0 15px;
   font-size: 13px;
   margin-bottom: 15px;
-  min-height: 115px;
+  min-height: 119px;
 }
 .cause:hover {
   background: #f0f0f0;
@@ -654,6 +653,7 @@ form .alert {
   position: relative;
   display: block;
   overflow: hidden;
+  max-height: 190px;
 }
 .lightbox img {
   -moz-transition: all, 0.5s;
@@ -767,6 +767,12 @@ form .alert {
   .reasons-col:hover .on-hover {
     padding: 25px;
   }
+
+  .lightbox{
+    max-height: 160px;
+  }
+
+
 }
 /* Medium devices (desktops, 992px and Donw) */
 @media (max-width: 992px) {
@@ -856,6 +862,10 @@ form .alert {
   .col-form {
     margin-bottom: 25px;
   }
+
+  .lightbox {
+    max-height: none;
+}
 }
 /* Extra Small devices (tablets, 480px and Down) */
 @media (max-width: 480px) {
