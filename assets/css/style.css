@@ -295,10 +295,10 @@ a:hover, a:focus, a:active {
 }
 .cause .cause-details {
   text-align: justify;
-  padding: 0 15px;
+  padding: 0 10px 10px 10px;
   font-size: 13px;
-  margin-bottom: 15px;
-  max-height: 141px;
+  margin-bottom: 20px;
+  max-height: 154px;
 }
 .cause:hover {
   background: #f0f0f0;
